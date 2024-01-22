@@ -1,6 +1,6 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6.0-windows10.0.17763.0</TargetFramework>
+    <TargetFramework>net6.0-windows10.0.22621.0</TargetFramework>
     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
     <Platforms>x64;x86</Platforms>
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -22,8 +22,8 @@
 
   <PropertyGroup>
     <CSWinRTIncludes>Microsoft.Windows.ApplicationModel.Resources</CSWinRTIncludes>
-    <CSWinRTWindowsMetadata>10.0.17763.0</CSWinRTWindowsMetadata>
-    <WindowsSdkPackageVersion>10.0.17763.$(CsWinRTDependencyWindowsSdkVersionSuffixPackageVersion)</WindowsSdkPackageVersion>
+    <CSWinRTWindowsMetadata>10.0.22621.0</CSWinRTWindowsMetadata>
+    <WindowsSdkPackageVersion>10.0.22621.$(CsWinRTDependencyWindowsSdkVersionSuffixPackageVersion)</WindowsSdkPackageVersion>
     <NoWarn>MSB3271</NoWarn>
   </PropertyGroup>
 
