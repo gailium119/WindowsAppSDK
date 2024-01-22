@@ -30,7 +30,7 @@
       <!-- /ZH:SHA_256 Hash algorithm for file checksums in debug info -->
       <!-- /await:strict Enable coroutine support. Disable language extensions present in /await that weren't adopted into C++20 -->
       <!-- /d1trimfile:$(RepoRoot) If the prefix for a source file path name string matches "trim-string" the prefix is replaced with the mapping-identifier (if present). Requires /Brepro. -->
-      <AdditionalOptions>%(AdditionalOptions) /Qspectre /ZH:SHA_256 /await:strict /d1trimfile:$(RepoRoot)</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /ZH:SHA_256 /await:strict /d1trimfile:$(RepoRoot)</AdditionalOptions>
     </ClCompile>
     <Link>
       <!-- /DEBUG:FULL Create PDF containing full debug information -->
@@ -46,9 +46,6 @@
   </ItemDefinitionGroup>
 
   <!-- BinSkim emits errors or warnings without this settings -->
-  <PropertyGroup>
-    <SpectreMitigation>Spectre</SpectreMitigation>
-  </PropertyGroup>
 
   <!-- Debug-specific options -->
   <PropertyGroup Condition="'$(Configuration)'=='Debug'">

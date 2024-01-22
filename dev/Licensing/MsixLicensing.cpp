@@ -1,10 +1,11 @@
-﻿// Copyright (c) Microsoft Corporation and Contributors.
+// Copyright (c) Microsoft Corporation and Contributors.
 
 #include "pch.h"
 
 #include "msixlicensing.h"
 
 #include <WindowsAppRuntime-License.h>
+#include <windows.h>
 
 STDAPI MsixInstallLicenses() noexcept try
 {
